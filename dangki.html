@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="gioithieu.html">Giới thiệu</a></li>
+                <li><a href="dangky.html">Đăng ký</a></li>
+                <li><a href="dangnhap.html">Đăng nhập</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Đăng ký tài khoản</h1>
+        <form action="register.php" method="post">
+            <input type="text" id="username" name="username" placeholder="Tên đăng nhập" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Mật khẩu" required>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Nhập lại mật khẩu" required>
+            <button type="submit">Đăng ký</button>
+        </form>
+    </main>
+</body>
+</html>
